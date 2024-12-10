@@ -1,0 +1,35 @@
+.news-block {
+    text-align: center;
+    margin-bottom: 32px;
+
+    .article-paper {
+        padding: 16px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease;
+
+        &:hover {
+            box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .modal-content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background-color: white;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+        padding: 32px;
+        border-radius: 8px;
+        text-align: left;
+        z-index: 1050;
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .modal-content.open {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}

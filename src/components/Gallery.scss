@@ -1,0 +1,21 @@
+.gallery {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    .gallery-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-image {
+        height: 200px;
+    }
+
+    .gallery-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-top: 8px;
+    }
+}

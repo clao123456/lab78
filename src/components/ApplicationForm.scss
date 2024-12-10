@@ -1,0 +1,24 @@
+.application-form {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    .MuiTypography-root {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .MuiTextField-root {
+        margin: 8px 0;
+    }
+
+    .MuiButton-root {
+        margin-top: 16px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+.currency-rates {
+    .currency-header {
+        margin-bottom: 16px;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .currency-converter {
+        margin-bottom: 16px;
+    }
+
+    .currency-result {
+        margin-top: 16px;
+        font-size: 1.125rem;
+        font-weight: bold;
+    }
+
+    .currency-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+}
